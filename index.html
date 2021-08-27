@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Font preview</title>
+    <link
+      href="http://fonts.cdnfonts.com/css/sf-pro-display"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.7/utilities.css"
+      integrity="sha512-ReBuhRcoSR6TYErmFMzIVea0IP68fOqzEGZO0zBaH6YtBN7+4CNc2ARxtYzQyYoPs84tYf18cQr19azyXih6rQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+  </head>
+  <style>
+    * {
+      font-family: "SF Pro Display", sans-serif;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+    .list-font div {
+      margin: 2px;
+      padding: 6px;
+    }
+    .fw-100 {
+      font-weight: 100;
+    }
+    .fw-200 {
+      font-weight: 200;
+    }
+    .fw-300 {
+      font-weight: 300;
+    }
+    .fw-400 {
+      font-weight: 400;
+    }
+    .fw-500 {
+      font-weight: 500;
+    }
+    .fw-600 {
+      font-weight: 600;
+    }
+
+    .fs-16 {
+      font-size: 16px;
+    }
+    .fs-14 {
+      font-size: 14px;
+    }
+    .fs-12 {
+      font-size: 12px;
+    }
+
+    .section-service__title {
+      font-size: 32px;
+      line-height: 1.1;
+      background-image: linear-gradient(to right, #6573cf 0%, #25eeff 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+  </style>
+  <body class="bg-gray-500">
+    <main
+      class="
+        max-w-xl
+        mx-auto
+        mt-8
+        px-4
+        pt-2
+        pb-8
+        border
+        shadow-xl
+        rounded
+        animate__animated animate__fadeIn
+        bg-white
+      "
+    >
+      <h1 class="section-service__title text-center">SF PRO DISPLAY preview</h1>
+      <p class="text-center text-sm">* Click text to edit</p>
+
+      <section class="list-font">
+        <div class="fw-100 fs-16" contenteditable>SF Pro Display 16 - 100</div>
+        <div class="fw-200 fs-16" contenteditable>SF Pro Display 16 - 200</div>
+        <div class="fw-300 fs-16" contenteditable>SF Pro Display 16 - 300</div>
+        <div class="fw-400 fs-16" contenteditable>SF Pro Display 16 - 400</div>
+        <div class="fw-500 fs-16" contenteditable>SF Pro Display 16 - 500</div>
+        <div class="fw-600 fs-16" contenteditable>SF Pro Display 16 - 600</div>
+
+        <div class="fw-200 fs-14" contenteditable>SF Pro Display 14 - 200</div>
+        <div class="fw-100 fs-14" contenteditable>SF Pro Display 14 -100</div>
+        <div class="fw-300 fs-14" contenteditable>SF Pro Display 14 - 300</div>
+        <div class="fw-400 fs-14" contenteditable>SF Pro Display 14 - 400</div>
+        <div class="fw-500 fs-14" contenteditable>SF Pro Display 14 - 500</div>
+        <div class="fw-600 fs-14" contenteditable>SF Pro Display 14 - 600</div>
+
+        <div class="fw-100 fs-12" contenteditable>SF Pro Display 12 -100</div>
+        <div class="fw-200 fs-12" contenteditable>SF Pro Display 12 - 200</div>
+        <div class="fw-300 fs-12" contenteditable>SF Pro Display 12 - 300</div>
+        <div class="fw-400 fs-12" contenteditable>SF Pro Display 12 -400</div>
+        <div class="fw-500 fs-12" contenteditable>SF Pro Display 12 - 500</div>
+        <div class="fw-600 fs-12" contenteditable>SF Pro Display 12 - 600</div>
+      </section>
+    </main>
+  </body>
+</html>
